@@ -61,6 +61,9 @@ ul li a {
   border-bottom: 4px solid #25d1fe;
   padding-bottom: 10px;
 }
+.explore{
+  display: none;
+}
 #menu ul .li::after {
   content: "";
   height: 3px;
@@ -126,6 +129,9 @@ button:hover {
     margin-bottom: 10px;
     width: 100%;
   }
+  .explore{
+    display: block;
+  }
   input {
     visibility: hidden;
   }
@@ -134,10 +140,12 @@ button:hover {
   }
   label {
     display: block;
+    margin-left: 25px;
+    margin-top: 10px;
   }
   label img {
     padding-left: 20px;
-    width: 60px;
+    width: 55px;
   }
   nav {
     background-color: rgba(0, 0, 0, 0.9);
